@@ -1,0 +1,14 @@
+
+
+    -   First step is {django-admin startproject projectname}.
+    -   After that {cd projectname}.
+    -   Next {python manage.py startapp appname}.
+    -   In setting write {appname} and {templates}.
+    -   Create {urls.py} in app.
+    -   After that in our project urls we have to {import include} and write the path of our app {path('', include("weather.urls"))}.
+    -   In app urls {from .import views} and in app vies {import HttpResponse}.
+    -   We have to make {templates} folder in app.
+    -   Then we have to get weather api.
+    -   Then import {datetime} and {import requests}.
+    -   In views we have to write {url=paste the weather api and key}.
+    -
